@@ -1,0 +1,35 @@
+
+        * { 
+            font-family: Verdana; 
+            color:white; 
+        }
+
+        body { 
+            position: absolute; 
+            left:50%; 
+            transform: translateX(-50%); 
+            background-color: #6d399d; 
+            width: fit-content; 
+        }
+
+        div { 
+            padding: 10px; 
+            margin: 10px; 
+        }
+
+        input, select, textarea { 
+            padding: 4px; 
+            margin: 4px; 
+            color: black; 
+        }
+
+        select, textarea { 
+            width:95%; 
+        }
+        #head { 
+            text-align: center; 
+        }
+
+        #body { 
+            background-color: #24135dce; 
+        }

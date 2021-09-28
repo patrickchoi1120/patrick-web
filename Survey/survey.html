@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick's Survey</title>
+<link href="style.css" rel="stylesheet">
+    <body>
+        <div id="head">
+            <h1>School Lunch</h2>
+            <h3><i>Thank you for taking the time to help us imporve the platform</i></h3>
+        </div>
+        <div id="body">
+            <form>
+                <div>
+                    <label>
+                        Name<br>
+                        <input type="text" name="name-text" placeholder="Enter your name"><br>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Email<br>
+                        <input type="text" name="email-text" placeholder="Enter your Email"><br>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Age <br>
+                        <input type="text" name="age-text" placeholder="Age"><br>
+                    </label>
+                </div>
+                <div>
+                    <label for="options1">
+                        How many times do you eat lunch per week?<br> 
+                        <select id="options1" name="options1">
+                            <option value="" disabled selected hidden>Select number</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <br>
+                    </label>
+                </div>
+                <div>
+                    Would you recommend BCC food to a friend?<br>
+                    <label for="Definitely"><input id="Definitely" name="radio1" type="radio">Definitely</label><br>
+                    <label for="Maybe"><input id="Maybe" name="radio1" type="radio">Maybe</label><br>
+                    <label for="Not sure"><input id="Not sure" name="radio1" type="radio">No </label><br>
+                </div>
+                <div>
+                    <label for="options2">
+                        What is your favorite part to BCC lunch?<br> 
+                        <select id="options2" name="options2">
+                            <option value="" disabled selected hidden>Select an option</option>
+                            <option value="1">Nothing, its horrible</option>
+                            <option value="2">Pasta</option>
+                            <option value="3">Pork Cutlet</option>
+                            <option value="4">Other</option>
+                        </select>
+                        <br>
+                    </label>
+                </div>
+                <div>
+                    What would you want in BCC Lunch (Check all that apply)<br> 
+                    <label for="checkbox1">
+                        <input id="checkbox1" name="checkbox1" type="checkbox" value="Front-end Projects">
+                        Pork<br>
+                    </label>
+                    <label for="checkbox2">
+                        <input id="checkbox2" name="checkbox2" type="checkbox" value="Back-end Proejcts">
+                        Steak<br>
+                    </label>
+                    <label for="checkbox3">
+                        <input id="checkbox3" name="checkbox3" type="checkbox" value="Data Visualization">
+                        Pie<br>
+                    </label>
+                    <label for="checkbox4">
+                        <input id="checkbox4" name="checkbox4" type="checkbox" value="Challenges">
+                        Cake<br>
+                    </label>
+                    <label for="checkbox5">
+                        <input id="checkbox5" name="checkbox5" type="checkbox" value="Open Source Community">
+                        Cookies<br>
+                    </label>
+                    <label for="checkbox6">
+                        <input id="checkbox6" name="checkbox6" type="checkbox" value="Gitter help rooms">
+                        Cupcakes<br>
+                    </label>
+                    <label for="checkbox7">
+                        <input id="checkbox7" name="checkbox7" type="checkbox" value="Videos">
+                        Chocolate<br>
+                    </label>
+                    <label for="checkbox8">
+                        <input id="checkbox8" name="checkbox8" type="checkbox" value="City Meetups">
+                        More Fruits<br>
+                    </label>
+                    </label>
+                </div>
+                <div>
+                    <label for="textarea">
+                        Any comments or suggestions?<br>
+                        <textarea id="textarea" name="textarea" rows="4" placeholder="Enter your commnet here..."></textarea>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </body>
+    </html>
